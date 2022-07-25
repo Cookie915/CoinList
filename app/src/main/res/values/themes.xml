@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CoinList" parent="Theme.AppCompat.NoActionBar">
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maastritch_blue</item>
+        <item name="colorPrimaryVariant">@color/pantone282c</item>
+        <item name="colorOnPrimary">@color/brilliant_azure</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Indigo</item>
+        <item name="colorSecondaryVariant">@color/pantone534c</item>
+        <item name="colorOnSecondary">@color/pantone2727</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an
+             animated drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_crypto_lady_small</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.CoinList</item>
+    </style>
+
+</resources>
